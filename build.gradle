@@ -19,6 +19,7 @@ dependencies {
     implementation "io.ktor:ktor-server-call-logging:$ktor_version"
 
     implementation 'org.slf4j:slf4j-simple:2.0.9'
+//    implementation "ch.qos.logback:logback-classic:$logback_version"
 
     implementation "org.apache.lucene:lucene-core:${luceneVersion}"
     implementation "org.apache.lucene:lucene-analyzers-common:8.11.2"
